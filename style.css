@@ -1,0 +1,64 @@
+*{
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.age{
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+#info{
+    font-size: 1.7em;
+    font-weight: 550;
+
+}
+input{
+    outline: none;
+    /* width: 350px; */
+    padding: 10px 15px;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+button{
+    padding: 20px 75px;
+    font-size: 1.7em;
+    /* width: 350px; */
+
+}
+p{
+    font-size: 1.2em;
+    position: relative;
+    top: -20px;
+}
+
+
+@media screen and (max-width: 400px){
+    #info{
+        font-size: 1.5em;
+        font-weight: 550;
+    }
+    input{
+        outline: none;
+        /* width: 250px; */
+        padding: 10px 25px;
+        font-size: 1.2em;
+        align-content: start;
+    }
+    
+    button{
+        /* width: 250px; */
+        padding: 13px 40px;
+        font-size: 1.3em;
+    }
+    p{
+        position: relative;
+        top: -20px;
+    }
+    
+    
+}
